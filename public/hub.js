@@ -17,7 +17,10 @@
     var a = document.createElement('a');
     a.className = 'card';
     a.href = app.url;
-    a.setAttribute('aria-label', 'Abrir ' + app.title);
+    // Abre o aplicativo em outra guia, sem dar à página aberta acesso ao portal (noopener).
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.setAttribute('aria-label', 'Abrir ' + app.title + ' em nova guia');
     if (app.accent) a.style.setProperty('--accent', app.accent);
 
     var top = document.createElement('div');
