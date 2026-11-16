@@ -19,7 +19,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,
 .emblem{display:block;border-radius:50%;box-shadow:0 0 0 2px rgba(255,255,255,.25),0 6px 18px rgba(0,0,0,.35);background:#fff}
 .eyebrow{margin:0;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#bcd7ee;font-weight:600}
 .division{margin:2px 0 0;font-size:.85rem;color:#d7e6f4}
-.hero-copy{padding-top:44px;max-width:720px}
+.hero-copy{padding-top:44px;max-width:900px}
 h1{margin:0;font-size:clamp(2rem,5vw,3rem);line-height:1.1;font-weight:700;letter-spacing:-.02em}
 .lead{margin:14px 0 0;font-size:clamp(1rem,2.2vw,1.15rem);color:#d9e8f5;max-width:60ch}
 
