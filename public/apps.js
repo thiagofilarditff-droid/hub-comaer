@@ -23,5 +23,13 @@ window.HUB_APPS = [
     description: 'Revisão analítica da DVP com variações, impactos, notas explicativas, transferências e resultado financeiro.',
     inputs: ['BGU-DVP (SIAFI)'],
     url: 'https://dvp-comaer.vercel.app'
+  },
+  {
+    id: 'rg',
+    code: 'RG',
+    title: 'Relatório de Gestão',
+    description: 'Preparação do relatório de gestão do COMAER e da FAER a partir dos demonstrativos, com conferência de integridade, prévia editável e exportação em Word.',
+    inputs: ['BP, DVP, BF, DFC e BO (SIAFI)', 'Órgãos 52111 e 52911'],
+    url: 'https://relatorio-gestao-comaer.vercel.app'
   }
 ];
