@@ -6,48 +6,31 @@
 <title>Portal de Demonstrações Contábeis · COMAER · SUCONT-2</title>
 <meta name="description" content="Acesso aos aplicativos de demonstrativos contábeis do Comando da Aeronáutica.">
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#102e49">
+<meta name="theme-color" content="#0c1b2d">
 <link rel="icon" type="image/png" href="emblema-96.png">
+<link rel="preload" href="fonts/newsreader-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip" href="#apps">Ir para os aplicativos</a>
 
-<header class="hero">
-  <div class="shell">
-    <div class="brand">
-      <img class="emblem" src="emblema-96.png" srcset="emblema-96.png 1x, emblema-192.png 2x" width="52" height="52" alt="Brasão da SUCONT-2">
-      <div class="brand-text">
-        <p class="eyebrow">COMAER · SUCONT-2</p>
-        <p class="division">Divisão de Análise e de Procedimentos Contábeis</p>
-      </div>
+<div class="page">
+  <header class="intro">
+    <h1>Portal de Demonstrações Contábeis</h1>
+    <p class="lead">Escolha o aplicativo e prepare o relatório a partir dos arquivos do SIAFI e do Tesouro Gerencial.</p>
+
+    <div class="seal">
+      <img src="emblema-480.png" width="192" height="192" alt="Brasão da SUCONT-2">
+      <p><strong>Divisão de Análise e de Procedimentos Contábeis</strong><span>Comando da Aeronáutica</span></p>
     </div>
-    <div class="hero-copy">
-      <h1>Portal de Demonstrações Contábeis</h1>
-      <p class="lead">Escolha o aplicativo e prepare o relatório a partir dos arquivos do SIAFI e do Tesouro Gerencial.</p>
-    </div>
-  </div>
-</header>
+  </header>
 
-<main class="shell">
-  <section class="grid" id="apps" aria-label="Aplicativos disponíveis"></section>
-
-  <section class="how" aria-labelledby="how-title">
-    <h2 id="how-title">Como funciona</h2>
-    <ol class="steps">
-      <li><span class="num">1</span><div><strong>Escolha o aplicativo</strong><p>Cada demonstrativo tem o seu próprio aplicativo.</p></div></li>
-      <li><span class="num">2</span><div><strong>Carregue as planilhas</strong><p>Os arquivos Excel são lidos e processados no seu navegador.</p></div></li>
-      <li><span class="num">3</span><div><strong>Revise e baixe o Word</strong><p>Confira as validações e exporte o documento editável.</p></div></li>
-    </ol>
-  </section>
-
-  <p class="note">Cada aplicativo funciona de forma independente. As notas e análises geradas devem ser revisadas pelo responsável contábil antes da emissão.</p>
-</main>
-
-<footer class="shell foot">
-  <span>Divisão de Análise e de Procedimentos Contábeis</span>
-  <span>Fonte dos demonstrativos: SIAFI · Tesouro Gerencial</span>
-</footer>
+  <main>
+    <h2 class="sr-only">Aplicativos</h2>
+    <ul class="apps" id="apps"></ul>
+    <p class="note">As planilhas Excel são lidas e processadas no seu navegador. Cada aplicativo funciona de forma independente, e as notas e análises geradas devem ser revisadas pelo responsável contábil antes da emissão.</p>
+  </main>
+</div>
 
 <script src="apps.js"></script>
 <script src="hub.js"></script>
